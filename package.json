@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "build": "tsc",
     "prepare": "npm run build"
   },
@@ -22,9 +23,8 @@
   "license": "MIT",
   "author": "Chathuranga Niroshana <niroshana.c.n.j@gmail.com>",
   "devDependencies": {
-    "@types/jest": "^30.0.0",
-    "jest": "^30.1.1",
-    "ts-jest": "^29.4.1",
-    "typescript": "^5.9.2"
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
   }
 }

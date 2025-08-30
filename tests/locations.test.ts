@@ -1,8 +1,8 @@
+import { describe, it, expect } from 'vitest';
 import {
     getProvinces,
     getDistrictOptionsByProvince,
     provinceOptions,
-    districtOptions,
     getDistrictsByProvince
 } from "../src/index.js";
 
@@ -29,11 +29,11 @@ describe("Sri Lanka Location Package (ESM)", () => {
     });
 
     it("provides dropdown-ready districts", () => {
-        expect(getDistrictOptionsByProvince("Central")).toEqual([
-            { label: "Kandy", value: "Kandy" },
-            { label: "Matale", value: "Matale" },
-            { label: "Nuwara Eliya", value: "Nuwara Eliya" },
-        ])
+        expect(getDistrictOptionsByProvince("Western")).toEqual([
+            { label: "Colombo", value: "Colombo" },
+            { label: "Gampaha", value: "Gampaha" },
+            { label: "Kalutara", value: "Kalutara" }
+        ]);
     })
 
 

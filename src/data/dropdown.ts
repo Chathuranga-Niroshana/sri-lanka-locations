@@ -13,5 +13,5 @@ export const districtOptions: Record<string, { label: string; value: string }[]>
     }, {} as Record<string, { label: string; value: string }[]>);
 
 export const getDistrictOptionsByProvince = (province: string) => {
-    districtOptions[province] || []
+    return districtOptions[province] || []
 }
