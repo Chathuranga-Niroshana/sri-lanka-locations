@@ -1,0 +1,15 @@
+# Ignore source files and tests
+src/
+tests/
+jest.config.js
+tsconfig.json
+
+# Ignore logs
+*.log
+
+# Ignore node_modules (npm ignores automatically, but safe to add)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

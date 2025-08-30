@@ -1,0 +1,30 @@
+{
+  "name": "sri-lanka-locations",
+  "version": "1.0.0",
+  "description": "npm package to get and select provinces and districts of sri lanka",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "sri",
+    "lanka",
+    "sri lanka",
+    "districts",
+    "provinces",
+    "locations",
+    "dropdown"
+  ],
+  "license": "MIT",
+  "author": "Chathuranga Niroshana <niroshana.c.n.j@gmail.com>",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.1",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}
